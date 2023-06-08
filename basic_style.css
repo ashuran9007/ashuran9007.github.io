@@ -16,8 +16,9 @@
  h2{
   color: red;
  }
- p {}
- a {}
+ h3{
+	 color: red;
+ }
  a:link, a:visited {
 	 color: cyan;
  }
@@ -28,11 +29,24 @@
  
  .collumn3 {
 	 float: left;
-	 width: 33.33%;
+	 width: 30%;
+	 padding: 20px;
  }
  
  .row:after {
 	 content: "";
 	 display: table;
 	 clear: both;
+	 padding-bottom: 30px;
  }
+ 
+ @media screen and (max-width:600px ){
+	 .collumn3{
+		 width:100%;
+	 }
+ }
+ 
+ #in_collumn{
+	padding-right: 30px;
+	padding-left: 30px;
+	}
