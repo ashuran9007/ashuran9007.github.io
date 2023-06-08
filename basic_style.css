@@ -14,13 +14,13 @@
   font-size: 50px;
  }
  h2{
-  color: red;
+  color: Aqua;
  }
  h3{
 	 color: red;
  }
  a:link, a:visited {
-	 color: cyan;
+	 color: yellow;
  }
  
  a.hover {
