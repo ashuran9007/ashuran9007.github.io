@@ -1,6 +1,6 @@
-# ashuran9007.github.io
-A website that displays all about me
-index.html
-	- main page
-about_me.html
-	- contains information about me and what I like
+# ashuran9007.github.io<br/>
+A website that displays all about me <br/>
+## index.html<br/>
+main page<br/>
+## about_me.html<br/>
+contains information about me and what I like
