@@ -1,60 +1,70 @@
  body {
-	 
-     background-repeat: no-repeat;
-	 background-attachment: fixed;
-	 background-size: cover;
-	 padding-bottom: 35px;
-	 padding-left: 10px;
-	 padding-right: 10px;
-	 color: white;
-	 font-family: Helvetica;
+
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	padding: 0px 10%;
+ 	color: white;
+ 	font-family: Helvetica;
  }
- body#home {background-image: url("images/anime_headphones.jpg");}
- body#about_me {background-image: url("images/anime_field.jpg");}
+
+ body#home {
+ 	background-image: url("images/anime_headphones.jpg");
+ }
+
+ body#about_me {
+ 	background-image: url("images/anime_field.jpg");
+ }
+
  h1 {
-	 color: orange;
-	 text-align: center;
-	 font-size: 50px;
+ 	color: orange;
+ 	text-align: center;
+ 	font-size: 50px;
  }
- h2{
-	 color: Aqua;
-	 font-size: 30px;
+
+ h2 {
+ 	color: Aqua;
+ 	font-size: 30px;
  }
- h3{
-	 color: red;
-	 font-size: 24px;
+
+ dt {
+ 	color: red;
+ 	font-size: 24px;
  }
- p{
-	 font-size: 20px;
+
+ p {
+ 	font-size: 20px;
  }
- a:link, a:visited {
-	 color: yellow;
+
+ a:link,
+ a:visited {
+ 	color: yellow;
  }
- 
+
  a.hover {
-	 color:red;
+ 	color: red;
  }
- 
+
  .collumn3 {
-	 float: left;
-	 width: 30%;
-	 padding: 20px;
+ 	float: left;
+ 	width: 30%;
+ 	padding: 20px;
  }
- 
+
  .row:after {
-	 content: "";
-	 display: table;
-	 clear: both;
-	 padding-bottom: 30px;
+ 	content: "";
+ 	display: table;
+ 	clear: both;
+ 	padding-bottom: 30px;
  }
- 
- @media screen and (max-width:600px ){
-	 .collumn3{
-		 width:100%;
-	 }
+
+ @media screen and (max-width:900px) {
+ 	.collumn3 {
+ 		width: 100%;
+ 	}
  }
- 
- #in_collumn{
-	padding-right: 30px;
-	padding-left: 30px;
+
+ li {
+ 	color: red;
+ 	font-size: 24px;
  }
